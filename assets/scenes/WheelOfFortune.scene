@@ -470,7 +470,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "graphics",
+    "_name": "wedgnode",
     "_objFlags": 0,
     "_parent": {
       "__id__": 10
@@ -1308,15 +1308,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "Singlesidedwedges": {
-      "__uuid__": "bf451d1f-179a-4e6e-8a65-ac9c00e62fd4",
-      "__expectedType__": "cc.Prefab"
-    },
-    "Doublesidedwedges": {
-      "__uuid__": "ec0391dd-d571-4090-a16e-69e237865cc6",
-      "__expectedType__": "cc.Prefab"
-    },
-    "wedges": {
+    "line": {
       "__uuid__": "bf451d1f-179a-4e6e-8a65-ac9c00e62fd4",
       "__expectedType__": "cc.Prefab"
     },

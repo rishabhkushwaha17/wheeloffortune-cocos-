@@ -3,11 +3,7 @@ const { ccclass, property } = _decorator;
 @ccclass('WheelManager')
 export class WheelManager extends Component {
     @property({ type: Prefab })
-    Singlesidedwedges: Prefab = null
-    @property({ type: Prefab })
-    Doublesidedwedges: Prefab = null
-    @property({ type: Prefab })
-    wedges: Prefab = null
+    line: Prefab = null
     @property({ type: Node })
     wedgeNode: Node = null
     @property({ type: Node })
@@ -35,7 +31,7 @@ export class WheelManager extends Component {
             console.log(i, i + 360 / n);
             last = i;
             this.createSector(g, 340, -last, new Color("red"), -(last + (360 / n)), color[j % color.length], Color.BLACK);
-            let wedge = instantiate(this.Singlesidedwedges)
+            let wedge = instantiate(this.line)
             wedge.angle = -(i) - 90;
             console.log(wedge.angle);
             i = last + (360 / n) - 1
@@ -77,7 +73,7 @@ export class WheelManager extends Component {
         endtween2.to(0.2, { angle: -0 }, { easing: easing.sineOut })
         let sequnecetween3 = new Tween(this.pointer)
         sequnecetween1.sequence(starttween1, starttween2).call(() => {
-            sequnecetween2.sequence(middletween1, middletween2).repeat(20).call(() => {
+            sequnecetween2.sequence(middletween1, middletween2).repeat(27).call(() => {
             }).call(() => {
                 sequnecetween3.sequence(endtween1, endtween2).repeat(1).start()
             }).start()
@@ -105,7 +101,7 @@ export class WheelManager extends Component {
         this.upperlayer.arc(0, 0, radius + shadowBlur, startRad, endRad, false);
         this.upperlayer.lineTo(0, 0);
         this.upperlayer.close();
-        let color = new Color(0, 0, 0, 40)
+        let color = new Color(0, 0, 0, 20)
         this.upperlayer.fillColor = color; // Semi-transparent black
         console.log(this.upperlayer.fillColor);
 
