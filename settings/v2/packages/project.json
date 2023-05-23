@@ -5,5 +5,11 @@
       "width": 1960,
       "height": 1080
     }
-  }
+  },
+  "physics": {
+    "gravity": {
+      "y": 0
+    }
+  },
+  "custom_joint_texture_layouts": []
 }

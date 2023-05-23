@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "06546361-9198-4676-b892-68a182632a00",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "06546361-9198-4676-b892-68a182632a00@6c48a",
+      "displayName": "[CITYPNG.COM]Circle Gray Dashed Border Image PNG - 5871x4748",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "06546361-9198-4676-b892-68a182632a00",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "06546361-9198-4676-b892-68a182632a00@f9941",
+      "displayName": "[CITYPNG.COM]Circle Gray Dashed Border Image PNG - 5871x4748",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -68,
+        "offsetY": 7.5,
+        "trimX": 691,
+        "trimY": 190,
+        "width": 4353,
+        "height": 4353,
+        "rawWidth": 5871,
+        "rawHeight": 4748,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -2176.5,
+            -2176.5,
+            0,
+            2176.5,
+            -2176.5,
+            0,
+            -2176.5,
+            2176.5,
+            0,
+            2176.5,
+            2176.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            691,
+            4558,
+            5044,
+            4558,
+            691,
+            205,
+            5044,
+            205
+          ],
+          "nuv": [
+            0.11769715551013456,
+            0.04317607413647852,
+            0.859138136603645,
+            0.04317607413647852,
+            0.11769715551013456,
+            0.959983150800337,
+            0.859138136603645,
+            0.959983150800337
+          ],
+          "minPos": [
+            -2176.5,
+            -2176.5,
+            0
+          ],
+          "maxPos": [
+            2176.5,
+            2176.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "06546361-9198-4676-b892-68a182632a00@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": true,
+    "hasAlpha": true,
+    "redirect": "06546361-9198-4676-b892-68a182632a00@f9941"
+  }
+}
